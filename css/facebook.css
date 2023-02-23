@@ -1,0 +1,165 @@
+/* CSS Document */
+
+a{color:#3b5998;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+
+#menubar_container{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color:white;
+	margin: 0px 0px 20px 0px;
+	padding:0px;
+	background-color:#3b5998;
+	width:100%;
+	}
+
+#menubar_container a{color:white; padding:8px; }
+
+#menubar_menu{}
+
+#menubar_login{position: absolute; top: 0px; right: 0px;}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+
+#page-wrap {
+	background: white;
+	min-width: 1100px;
+	max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	#page-wrap #inside {
+		margin: 10px 10px 0px 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+
+	
+.seen {
+	background-color:#EDEFF4;
+}
+
+
+.notSeen {
+	background-color:#C0C0C0;
+}
+
+.notSeen a{
+	color:#999999;
+}
+
+.comment {
+	width: 100%;
+}
+
+#listUsers {
+	
+	overflow:hidden;
+	width: 100%; /* Needed for clearing IE http://www.quirksmode.org/css/clearing.html#link5 */
+}
+
+.listUser {
+	float: left;
+	background-color: #a4bed9;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+
+
+.medBlueBox {
+	background-color: #a4bed9;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+
+.mediaLineLeft {
+	float:left;
+	width:100px;
+	position:relative;
+	left:15px;
+}
+
+
+.mediaLineMoreLeft {
+	float:left;
+	width:15px;
+	height: 140px;
+	position:relative;
+	left:0px;
+	vertical-align: middle;
+}
+
+.mediaHeader {
+	margin-left: 145px;
+}
+
+.watchList {
+	margin-left: 145px;
+	max-width: 800px;
+}
+
+.mediaList {
+}
+
+#recent-movies {
+	float:left;
+	width: 500px;
+	margin-right: 10px;
+}
+
+#recent-episodes {
+	float:left;
+	width: 500px;
+	margin-left: 10px;
+	
+}
+
+.mediaObj {
+	overflow:hidden;
+	margin-bottom: 20px;
+	width: 100%; /* Needed for clearing IE http://www.quirksmode.org/css/clearing.html#link5 */
+}
+
+.seasonObj {
+	background-color: #EDEFF4;
+	overflow:hidden;
+	margin-bottom: 20px;
+	width: 100%; /* Needed for clearing IE http://www.quirksmode.org/css/clearing.html#link5 */
+}
+
+
+.seasonLeft {
+	float:left;
+	width:100px;
+	position:relative;
+}
+
+.seasonHeader {
+	margin-left: 135px;
+	padding-top: 20px;
+}
+
+#userbar {
+	background-color: #FEFEFE;
+}
+	#userbar a {
+		background-color: #EDEFF4;
+		margin-right: 3px;
+		padding: 3px;
+	}
+
