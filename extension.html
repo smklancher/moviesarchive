@@ -1,0 +1,123 @@
+<!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"> 
+<!-- Mirrored from movies.stephenklancher.com/extension.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Feb 2023 04:10:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME="ROBOTS" CONTENT="INDEX, NOFOLLOW">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta name="description" content="Track media as you watch it, see what others have been watching, keep track of movies to watch..." />
+<link rel="stylesheet" type="text/css" href="css/facebook.css" />
+<link rel="stylesheet" type="text/css" href="javascript/ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" media="screen" /> 
+
+<title>Media Moment - Browser Extension</title>
+
+<script type="text/javascript" src="javascript/ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="javascript/jquery.autogrow.js"></script> 
+<script type="text/javascript" src="javascript/jquery.timeago.js"></script>
+
+ 
+<script type="text/javascript">
+  $(document).ready(function() {
+
+	//initialize timestamps
+	$("abbr.timeago").timeago();
+	//initialize calendar date selector
+	$('.datepick').datepicker({ dateFormat: 'yy-mm-dd', maxDate: '+1d', changeYear: true });
+  });
+</script>
+
+</head><body id="mainbody">
+<div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '2436847320',
+            status     : true, 
+            cookie     : true,
+            xfbml      : true,
+            oauth      : true,
+          });
+        };
+        (function(d){
+           var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+           js = d.createElement('script'); js.id = id; js.async = true;
+           js.src = "javascript/connect.facebook.net/en_US/all.js";
+           d.getElementsByTagName('head')[0].appendChild(js);
+         }(document));
+      </script>
+<div id="menubar_container">
+
+<div id="menubar_menu">
+<a href="index5e0f.html?uid=3302625">What is this site?</a> 
+    <a href="alltime5e0f.html?uid=3302625">Stephen's Profile</a>  
+<a href="extension.html">Browser Extension</a> 
+
+    </div>
+</div>
+ 
+<div id="menubar_login">
+</div>
+<br><h1>Broswer Extension</h1>
+
+<div style="text-align:center">
+	<h2>Choose your browser to install</h2>
+<a href="userscripts/mediamoment_ff_1_0_2.xpi" title="Click to install the Firefox add-on">
+	<img src="images/Firefox-48.png" alt="Click to install the Firefox add-on" border="0" height="48" width="48"></a> 
+
+<a href="https://chrome.google.com/webstore/detail/mediamoment/ijlnhaekmljpefdggnhkoegcfgpmppob" title="Click to install the Chrome extension">
+	<img src="images/Chrome-48.png" alt="Click to install the Chrome extension" border="0" height="48" width="48"></a> 
+
+		<a href="userscripts/mediamoment_unified_1_0_2.user.js" title="Generic Browser Userscript">
+	<img src="images/Browser-48.png" alt="Generic Browser Userscript" border="0" height="48" width="48"></a>
+    <p>Only the Chrome extension will be updated going forward.</p>
+		<!--<p>Installed Version: NO EXTENSION INSTALLED - Latest Version: 1.9.1</p> -->
+</div>
+
+<p>Installing a browser extension/addon allows you to integrate this site's
+data with the following external sites:</p>
+<ul>
+	<li style="list-style-image: url('images/imdb.ico')"><a href="http://www.imdb.com/">IMDb</a></li>
+	<li style="list-style-image: url('images/netflix.ico')"><a href="http://www.netflix.com/">Netflix</a></li>
+	<li style="list-style-image: url('images/rottentomatoes.ico')"><a href="http://www.rottentomatoes.com/">Rotten Tomatoes</a></li>
+	<li style="list-style-image: url('images/jinni.ico')"><a href="http://www.jinni.com/">Jinni</a></li>
+	<li style="list-style-image: url('images/google.ico')"><a href="http://www.google.com/movies">Google Movies</a></li>
+	<li style="list-style-image: url('images/southpark.ico')"><a href="http://www.southparkstudios.com/">South Park Studios</a></li>
+	<li style="list-style-image: url('images/imdb.ico')"><a href="http://rinkworks.com/checklist/">The Film-Lover's Checklist - lists of IMDb links</a></li>
+</ul>
+
+
+<ul>
+	<li>The extension adds a link and shows whether you've watched the movie and your comments if any:
+	<ul>
+		<li>IMDb - Unseen movie<br><img src="images/Extension-Example-IMDb-Unseen.png" alt="IMDb browser extension example - Unseen movie" border="1" ></li>
+		<li>IMDb<br><img src="images/Extension-Example-IMDb.png" alt="IMDb browser extension example" border="1"> </li>
+		<li>Netflix<br><img src="images/Extension-Example-Netflix.png" alt="Netflix browser extension example" border="1"></li>
+		<li>Rotten Tomatoes<br><img src="images/Extension-Example-RT-Known.png" alt="Rotten Tomatoes browser extension example" border="1"></li>
+		<li>Jinni<br><img src="images/Extension-Example-Jinni.png" alt="Jinni browser extension example" border="1"></li>
+		<li>South Park Studios - Unfortunately, adding content anywhere lower than the top breaks their layout in an unexceptable way.<br><img src="images/Extension-Example-Southpark.png" alt="South Park Studios browser extension example" border="1"></li>
+		<li>Google Movies - Only adds Rotten Tomatoes and Media Moment links.<br><img src="images/Extension-Example-Google.png" alt="Google Movies browser extension example" border="1"></li>
+	</ul>
+	</li>
+	<li>Highlight movies you've seen on IMDb pages.  As you browse IMDb with
+	the broswer extension installed, movies you've marked as seen will stand
+	out as a different color.<br>
+	<img src="images/Extension-Example-Highlighting.png" alt="Hightlighting browser extension example" border="1" height="483" width="525">
+	</li>
+	<li>For movies where the association to an IMDb ID is unknown, a link to search IMDb is provided.<br><img src="images/Extension-Example-RT-Unknown.png" alt="Unknown Rotten Tomatoes browser extension example" border="1"></li>
+	<li>Adding <img src="images/jinni.ico" height="16" width="16" border="0" alt="Jinni Logo"> Jinni links.
+	As you browse Jinni
+	with this extension, links will be reported back to the site so we can
+	associate the IMDb ID to the link.</li>
+</ul>
+
+
+ 
+ 
+
+
+</body>
+
+<!-- Mirrored from movies.stephenklancher.com/extension.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Feb 2023 04:10:09 GMT -->
+</html>

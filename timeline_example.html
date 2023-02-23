@@ -1,0 +1,81 @@
+<!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"> 
+<!-- Mirrored from movies.stephenklancher.com/timeline_example.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Feb 2023 04:10:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME="ROBOTS" CONTENT="INDEX, NOFOLLOW">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta name="description" content="Track media as you watch it, see what others have been watching, keep track of movies to watch..." />
+<link rel="stylesheet" type="text/css" href="css/facebook.css" />
+<link rel="stylesheet" type="text/css" href="javascript/ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" media="screen" /> 
+
+<title>Media Moment</title>
+
+<script type="text/javascript" src="javascript/ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="javascript/jquery.autogrow.js"></script> 
+<script type="text/javascript" src="javascript/jquery.timeago.js"></script>
+
+ 
+<script type="text/javascript">
+  $(document).ready(function() {
+
+	//initialize timestamps
+	$("abbr.timeago").timeago();
+	//initialize calendar date selector
+	$('.datepick').datepicker({ dateFormat: 'yy-mm-dd', maxDate: '+1d', changeYear: true });
+  });
+</script>
+
+</head>    <body onload="onLoad();" onresize="onResize();">
+<div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '2436847320',
+            status     : true, 
+            cookie     : true,
+            xfbml      : true,
+            oauth      : true,
+          });
+        };
+        (function(d){
+           var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+           js = d.createElement('script'); js.id = id; js.async = true;
+           js.src = "javascript/connect.facebook.net/en_US/all.js";
+           d.getElementsByTagName('head')[0].appendChild(js);
+         }(document));
+      </script>
+<div id="menubar_container">
+
+<div id="menubar_menu">
+<a href="index5e0f.html?uid=3302625">What is this site?</a> 
+    <a href="alltime5e0f.html?uid=3302625">Stephen's Profile</a>  
+<a href="extension.html">Browser Extension</a> 
+
+    </div>
+</div>
+ 
+<div id="menubar_login">
+</div>
+<br><div id="userbar">
+<h1>Stephen Klancher</h1>
+ <a href="recent5e0f.html?uid=3302625">Recent</a>
+ <a href="alltime5e0f.html?uid=3302625">Overall</a>
+ <a href="year5e0f.html?uid=3302625">Year Overview</a>
+ <a href="series5e0f.html?uid=3302625">Series</a>
+ <a href="lists5e0f.html?uid=3302625">Lists</a>
+ </div>		<div style="text-align:center;width=100%">Screenshot example of what used to be a dynamic timeline<br>
+		Depending on the page linking to it, it could show everything a user watched, or just movies/episodes, or a specific list, or specific series.
+	  </div>
+		<br />
+        <div id="my-timeline" style="height: 700px; border: 1px solid #aaa">
+			<img src="images/TimelineExample.jpg" />
+		</div>
+		
+    </body>
+
+ 
+<!-- Mirrored from movies.stephenklancher.com/timeline_example.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Feb 2023 04:10:47 GMT -->
+</html>
